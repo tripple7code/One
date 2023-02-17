@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int name;
+	int num;
 	char la;
 
 	for (num = 0; num < 10; num++)
