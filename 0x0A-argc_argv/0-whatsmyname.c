@@ -7,9 +7,9 @@
  * return:0
 */
 
-int main(void)/*this is the arguement*/
+int main(int argc, char* argv[])/*this is the arguement*/
 {
-printf("0-whatsmyname.c\n");
+printf("%s\n", argv[0]);
 return (0);
 }
 
