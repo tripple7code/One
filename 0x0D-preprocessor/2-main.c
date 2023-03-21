@@ -1,21 +1,12 @@
 #include <stdio.h>
-
-/*
- * main - check the code
+/**
+ *main - prints the name of the file
  *
- * Return: Always 0.
+ *Return: always 0
 */
 
 int main(void)
 {
-	char *sh = "2-main.c";
-
-	while (*sh)
-	{
-		putchar(*sh);
-		sh++;
-	}
-	putchar('\n');
-
+	printf("%s\n", __FILE__);
 	return (0);
 }
