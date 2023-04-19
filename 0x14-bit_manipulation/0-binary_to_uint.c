@@ -2,7 +2,7 @@
 #include "main.h"
 /*
  *
- *
+ *binary_to_unit converts binary numbers to an unsigned int.
  *
  *
  *
